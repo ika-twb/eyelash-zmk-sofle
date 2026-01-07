@@ -20,16 +20,22 @@ manifest:
       revision: v0.3.0
       import: app/west.yml
     - name: zmk-adaptive-key
+      remote: zmkfirmware
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
+      remote: zmkfirmware
       path: modules/zmk/auto-layer
     - name: zmk-helpers
+      remote: zmkfirmware
       path: modules/zmk/helpers
     - name: zmk-leader-key
+      remote: zmkfirmware
       path: modules/zmk/leader-key
     - name: zmk-tri-state
+      remote: zmkfirmware
       path: modules/zmk/tri-state
     - name: zmk-unicode
+      remote: zmkfirmware
       path: modules/zmk/unicode
 
   self:
