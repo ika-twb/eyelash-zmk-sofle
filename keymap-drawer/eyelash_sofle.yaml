@@ -406,10 +406,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - F7
+  - F8
+  - F9
+  - F10
   - $$mdi:arrow-down-bold$$
   - {type: none}
   - {type: none}
@@ -419,10 +419,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - F4
+  - F5
+  - F6
+  - F11
   - $$mdi:arrow-left-bold$$
   - {type: none}
   - {type: none}
@@ -432,10 +432,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - F1
+  - F2
+  - F3
+  - F12
   - $$mdi:arrow-right-bold$$
   - {type: none}
   - {type: none}
