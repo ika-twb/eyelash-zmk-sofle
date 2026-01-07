@@ -21,9 +21,7 @@
     RJP - Right Joystick Press
     RJR - Right Joystick Right
     RJD - Right Joystick Down  
-  LKP: Left Knob Press 
-          
-*/
+  LKP: Left Knob Press */
 
 #pragma once
 
