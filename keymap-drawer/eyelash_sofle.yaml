@@ -6,7 +6,7 @@ layers:
   - '@'
   - '#'
   - $
-  - PCNT
+  - '%'
   - $$mdi:arrow-up-bold$$
   - ^
   - '&'
