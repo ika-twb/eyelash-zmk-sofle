@@ -339,11 +339,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
   - {type: none}
   - $$mdi:arrow-down-bold$$
   - {type: none}
@@ -352,11 +352,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
   - {type: none}
   - $$mdi:arrow-left-bold$$
   - {type: none}
@@ -365,11 +365,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
   - {type: none}
   - $$mdi:arrow-right-bold$$
   - {type: none}
@@ -381,9 +381,9 @@ layers:
   - $$mdi:volume-off$$
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - (
+  - )
+  - _
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {type: none}
