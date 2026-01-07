@@ -46,6 +46,7 @@
     behaviors {
         /* Left-hand HRMs. */
         hml {
+            name = hmr;
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -58,6 +59,7 @@
         };
         /* Right-hand HRMs. */
         hmr {
+            name = hmr;
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
