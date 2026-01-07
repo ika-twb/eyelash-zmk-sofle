@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  BASE:
   - {type: none}
   - '!'
   - '@'
@@ -56,16 +56,16 @@ layers:
   - $$mdi:volume-off$$
   - {type: none}
   - {type: none}
-  - {t: '$$mdi:keyboard-esc$$', h: layer3}
-  - {t: '$$mdi:keyboard-tab$$', h: layer1}
-  - {t: '$$mdi:keyboard-space$$', h: layer2}
+  - {t: '$$mdi:keyboard-esc$$', h: MEDIA}
+  - {t: '$$mdi:keyboard-tab$$', h: NAV}
+  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: layer5}
-  - {t: '-', h: layer4, s: _}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: layer6}
+  - {t: '$$mdi:backspace$$', h: SYM}
+  - {t: '-', h: NUM, s: _}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: FUNC}
   - {type: none}
   - {type: none}
-  layer1:
+  NAV:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -130,7 +130,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {type: none}
   - {type: none}
-  layer2:
+  MOUSE:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -195,7 +195,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - '&mkp MB4'
   - '&mkp MB5'
-  layer3:
+  MEDIA:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -260,7 +260,7 @@ layers:
   - $$mdi:volume-off$$
   - {type: none}
   - {type: none}
-  layer4:
+  NUM:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -325,7 +325,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  layer5:
+  SYM:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -390,7 +390,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  layer6:
+  FUNC:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -455,71 +455,71 @@ layers:
   - {type: held}
   - {type: none}
   - {type: none}
-  layer7:
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  GAME:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
   - $$mdi:arrow-down-bold$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - S
+  - D
+  - F
+  - G
   - $$mdi:arrow-left-bold$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
   - $$mdi:arrow-right-bold$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:volume-off$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - {type: none}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&none.'
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace-reverse-outline$$
   layer8:
   - {type: none}
   - {type: none}
