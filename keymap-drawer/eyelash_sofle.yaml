@@ -28,9 +28,9 @@ layers:
   - P
   - {type: none}
   - {type: none}
-  - '&hml LGUI A'
-  - '&hml LALT S'
-  - '&hml LCTRL D'
+  - A
+  - S
+  - D
   - F
   - G
   - $$mdi:arrow-left-bold$$
