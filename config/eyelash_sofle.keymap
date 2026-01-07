@@ -110,11 +110,11 @@
 
         layer_3 {
             bindings = <
-&none       &none      &none         &none         &none    &none        &kp UP_ARROW     &none      &none      &none      &none            &none       &none        
-&none       &none      &none         &none         &none    &none        &kp DOWN_ARROW   &none      &none      &none      &none            &none       &none   
-&none       &none      &none         &none         &none    &none        &kp LEFT_ARROW   &none      &none      &none      &none            &none       &none   
-&none       &none      &none         &none         &none    &none        &kp RIGHT_ARROW  &none      &none      &none      &none            &none       &none    
-&kp C_MUTE  &none      &none         &none         &none    &none        &kp ENTER        &none      &none      &none      &none            &none     
+&none       &none      &none         &none         &none    &none        &kp UP_ARROW     &none         &none             &none           &none         &none         &none        
+&none       &none      &none         &none         &none    &none        &kp DOWN_ARROW   &none         &none             &none           &none         &none         &none   
+&none       &none      &none         &none         &none    &none        &kp LEFT_ARROW   &kp C_PREV    &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_NEXT    &none         &none   
+&none       &none      &none         &none         &none    &none        &kp RIGHT_ARROW  &out OUT_TOG  &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    
+&kp C_MUTE  &none      &none         &none         &none    &none        &kp ENTER        &kp C_STOP    &kp C_PP          &kp C_MUTE      &none         &none     
             >;
 
             display-name = "layer3";
