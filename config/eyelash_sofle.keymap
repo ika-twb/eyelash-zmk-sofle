@@ -45,8 +45,7 @@
 
     behaviors {
         /* Left-hand HRMs. */
-        hml {
-            name = hmr;
+        hmr: hml {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -58,8 +57,7 @@
             hold-trigger-on-release;
         };
         /* Right-hand HRMs. */
-        hmr {
-            name = hmr;
+        hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
