@@ -123,11 +123,11 @@
 
         layer_4 {
             bindings = <
-&none       &none      &none         &none         &none      &none       &kp UP_ARROW     &none      &none      &none      &none            &none       &none        
-&kp LBKT    &kp N7     &kp N8        &kp N9        &kp RBKT   &none       &kp DOWN_ARROW   &none      &none      &none      &none            &none       &none   
-&kp SEMI    &kp N4     &kp N5        &kp N6        &kp EQUAL  &none       &kp LEFT_ARROW   &none      &none      &none      &none            &none       &none   
-&kp GRAVE   &kp N1     &kp N2        &kp N3        &kp BSLH   &none       &kp RIGHT_ARROW  &none      &none      &none      &none            &none       &none    
-&kp C_MUTE  &none      &none         &kp MINUS     &kp N0     &kp DOT     &kp ENTER        &none      &none      &none      &none            &none     
+&none       &none       &none      &none         &none         &none       &kp UP_ARROW     &none      &none      &none      &none            &none       &none        
+&none       &kp LBKT    &kp N7     &kp N8        &kp N9        &kp RBKT    &kp DOWN_ARROW   &none      &none      &none      &none            &none       &none   
+&none       &kp SEMI    &kp N4     &kp N5        &kp N6        &kp EQUAL   &kp LEFT_ARROW   &none      &none      &none      &none            &none       &none   
+&none       &kp GRAVE   &kp N1     &kp N2        &kp N3        &kp BSLH    &kp RIGHT_ARROW  &none      &none      &none      &none            &none       &none    
+&kp C_MUTE  &none       &none      &kp MINUS     &kp N0        &kp DOT     &kp ENTER        &none      &none      &none      &none            &none     
             >;
 
             display-name = "layer4";
@@ -136,11 +136,11 @@
 
         layer_5 {
             bindings = <
-&none       &none      &none         &none         &none      &none      &kp UP_ARROW     &none      &none      &none      &none            &none       &none        
-&kp LBRC    &kp AMPS   &kp ASTRK     &kp LPAR      &kp RBRC   &none      &kp DOWN_ARROW   &none      &none      &none      &none            &none       &none   
-&kp COLON   &kp DLLR   &kp PRCNT     &kp CARET     &kp PLUS   &none      &kp LEFT_ARROW   &none      &none      &none      &none            &none       &none   
-&kp TILDE   &kp EXCL   &kp AT        &kp POUND     &kp PIPE   &none      &kp RIGHT_ARROW  &none      &none      &none      &none            &none       &none    
-&kp C_MUTE  &none      &none         &kp LPAR      &kp RPAR   &kp UNDER  &kp ENTER        &none      &none      &none      &none            &none     
+&none      &none       &none      &none         &none         &none      &kp UP_ARROW     &none      &none      &none      &none            &none       &none        
+&none      &kp LBRC    &kp AMPS   &kp ASTRK     &kp LPAR      &kp RBRC   &kp DOWN_ARROW   &none      &none      &none      &none            &none       &none   
+&none      &kp COLON   &kp DLLR   &kp PRCNT     &kp CARET     &kp PLUS   &kp LEFT_ARROW   &none      &none      &none      &none            &none       &none   
+&none      &kp TILDE   &kp EXCL   &kp AT        &kp POUND     &kp PIPE   &kp RIGHT_ARROW  &none      &none      &none      &none            &none       &none    
+&kp C_MUTE &none       &none      &kp LPAR      &kp RPAR      &kp UNDER  &kp ENTER        &none      &none      &none      &none            &none     
             >;
 
             display-name = "layer5";
