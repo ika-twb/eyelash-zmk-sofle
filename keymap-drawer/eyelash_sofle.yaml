@@ -274,11 +274,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: '[', s: '{'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: ']', s: '}'}
   - {type: none}
   - $$mdi:arrow-down-bold$$
   - {type: none}
@@ -287,11 +287,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: ;, s: ':'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '=', s: +}
   - {type: none}
   - $$mdi:arrow-left-bold$$
   - {type: none}
@@ -300,11 +300,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: \, s: '|'}
   - {type: none}
   - $$mdi:arrow-right-bold$$
   - {type: none}
@@ -316,9 +316,9 @@ layers:
   - $$mdi:volume-off$$
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: '-', s: _}
+  - {t: '0', s: )}
+  - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: held}
