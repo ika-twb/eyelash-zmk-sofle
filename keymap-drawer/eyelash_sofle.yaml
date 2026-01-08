@@ -516,7 +516,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&none.'
+  - {type: none}
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
