@@ -91,11 +91,20 @@
 
     combos {
         compatible = "zmk,combos";
-
-//        softoff {
-//            bindings = <&soft_off>;
-//            key-positions = <14 28 40>; // Row 1 Col 1, Row 2 Col 2, Row 3 Col 1
-//        };
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <LM2 LB2>;
+            timeout-ms = <50>;
+        };
+        paste {
+            bindings = <&kp LS(INSERT)>;
+            key-positions = <LM1 LB1>;
+            timeout-ms = <50>;
+        }
+        softoff {
+           bindings = <&soft_off>;
+           key-positions = <LT4 LM3 LB4>; // Row 1 Col 1, Row 2 Col 2, Row 3 Col 1
+       };
     };
 
     macros {
@@ -153,11 +162,11 @@
 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮              ╭─────up──────╮               ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ */
     &none         &none         &none         &none         &none         &none                       &kp UP_ARROW                   &none         &none         &none         &none         &none         &none        
 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤              ├────down─────┤               ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ */
-    &none         &none         &none         &none         &none         &none                       &kp DOWN_ARROW                 &kp K_REDO    &kp K_PASTE   &kp K_COPY    &kp K_CUT     &kp K_UNDO    &none   
+    &none         &kp LA(LS(SPC)) &kp LA(1)   &kp LA(2)     &kp LA(3)      &kp LA(4)                  &kp DOWN_ARROW                 &kp K_REDO    &kp LS(INSERT) &kp LC(C)     &kp K_CUT     &kp K_UNDO    &none   
 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤              ├────left─────┤               ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ */
-    &none         &none         &none         &none         &none         &none                       &kp LEFT_ARROW                 &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp CAPS      &none   
+    &none         &kp LA(F4)     &kp LA(5)    &kp LA(6)     &kp LA(7)      &kp LA(8)                  &kp LEFT_ARROW                 &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp CAPS      &none   
 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤              ├────right────┤               ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ */
-    &none         &none         &none         &none         &none         &none                       &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
+    &kp LSHIFT    &none         &kp LG(V)     &kp LG(GRAVE) &none         &none                       &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────╮├─────tap─────┤ ╭─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯ */
     &kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp ENTER     &kp BSPC      &kp DEL       &none         &none     
 /*╰─────────────╯             ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯╰─────────────╯ ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯ */
