@@ -80,24 +80,24 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - Alt+Sft+SPC
+  - Alt+1
+  - Alt+2
+  - Alt+3
+  - Alt+4
   - $$mdi:arrow-down-bold$$
   - REDO
-  - PASTE
-  - COPY
+  - Sft+Ins
+  - Ctl+C
   - CUT
   - UNDO
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - Alt+F4
+  - Alt+5
+  - Alt+6
+  - Alt+7
+  - Alt+8
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -105,10 +105,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-caps$$
   - {type: none}
+  - $$mdi:apple-keyboard-shift$$
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Gui+`, s: Gui+~}
   - {type: none}
   - {type: none}
   - $$mdi:arrow-right-bold$$
@@ -715,3 +715,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+combos:
+- p: [29, 42]
+  k: Ctl+C
+- p: [14, 28, 40]
+  k: '&soft_off'
