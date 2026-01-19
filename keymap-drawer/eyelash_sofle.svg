@@ -662,11 +662,6 @@ rect.held, rect.combo.held {
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-NAV">
@@ -985,11 +980,6 @@ rect.held, rect.combo.held {
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-MOUSE">
@@ -1297,11 +1287,6 @@ rect.held, rect.combo.held {
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-MEDIA">
@@ -1598,11 +1583,6 @@ rect.held, rect.combo.held {
 <text x="252" y="175" class="combo tap">
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
-</g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
@@ -1917,11 +1897,6 @@ rect.held, rect.combo.held {
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-SYM">
@@ -2217,11 +2192,6 @@ rect.held, rect.combo.held {
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 2329)" class="layer-FUNC">
@@ -2510,11 +2480,6 @@ rect.held, rect.combo.held {
 <text x="252" y="175" class="combo tap">
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
-</g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
@@ -2864,11 +2829,6 @@ rect.held, rect.combo.held {
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 3106)" class="layer-layer8">
@@ -3145,11 +3105,6 @@ rect.held, rect.combo.held {
 <text x="252" y="175" class="combo tap">
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
-</g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
@@ -3428,11 +3383,6 @@ rect.held, rect.combo.held {
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 3882)" class="layer-layer10">
@@ -3709,11 +3659,6 @@ rect.held, rect.combo.held {
 <text x="252" y="175" class="combo tap">
 <tspan x="252" dy="-0.6em">Sft+</tspan><tspan x="252" dy="1.2em">INS</tspan>
 </text>
-</g>
-<g class="combo combopos-2">
-<path d="M103,161 l-13,45" class="combo"/>
-<rect rx="6" ry="6" x="89" y="148" width="28" height="26" class="combo"/>
-<text x="103" y="161" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 </g>
 </g>
