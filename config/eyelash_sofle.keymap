@@ -100,7 +100,7 @@
             bindings = <&kp LS(INSERT)>;
             key-positions = <LM1 LB1>;
             timeout-ms = <50>;
-        }
+        };
         softoff {
            bindings = <&soft_off>;
            key-positions = <LT4 LM3 LB4>; // Row 1 Col 1, Row 2 Col 2, Row 3 Col 1
