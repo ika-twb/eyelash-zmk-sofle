@@ -25,6 +25,19 @@
 
 #pragma once
 
+// #define LNR LN0 LN1 LN2 LN3 LN4 LN5
+// #define RNR RN0 RN1 RN2 RN3 RN4 RN5
+// #define LTR LT0 LT1 LT2 LT3 LT4 LT5
+// #define RTR RT0 RT1 RT2 RT3 RT4 RT5
+// #define LMR LM0 LM1 LM2 LM3 LM4 LM5 
+// #define RMR RM0 RM1 RM2 RM3 RM4 RM5
+// #define LBR LB0 LB1 LB2 LB3 LB4 LB5
+// #define RBR RB0 RB1 RB2 RB3 RB4 RB5
+// #define LHR LH0 LH1 LH2 LH3 LH4
+// #define RHR RH0 RH1 RH2 RH3 RH4
+// #define LKR LKP 
+// #define RJR RJU RJL RJP RJR RJD
+
 #define RJU  6  // right joystick
 #define RJL 32  
 #define RJP 58
