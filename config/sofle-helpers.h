@@ -5,3 +5,38 @@
 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────╮├─────tap─────┤ ╭─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯ */
 /*╰─────────────╯             ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯╰─────────────╯ ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯ */
 
+#define BASE 0
+#define NAV 1
+#define MOUSE 2
+#define MEDIA 3
+#define NUM 4
+#define SYM 5
+#define FN 6
+
+#define WINDOWS 0
+#define MAC 7
+#define LINUX 14
+#define ANDROID 21
+
+#define XXX &none
+#define ARG_1(_1, ...) _1
+#define ARG_2(_1, _2, ...) _2
+#define ARG_3(_1, _2, _3, ...) _3
+#define ARG_4(_1, _2, _3, _4, ...) _4
+#define ARG_5(_1, _2, _3, _4, _5, ...) _5
+#define JOY_UP(...)    ARG_1(__VA_ARGS__)
+#define JOY_DOWN(...)  ARG_2(__VA_ARGS__)
+#define JOY_LEFT(...)  ARG_3(__VA_ARGS__)
+#define JOY_RIGHT(...) ARG_4(__VA_ARGS__)
+#define JOY_TAP(...)   ARG_5(__VA_ARGS__)
+
+
+#define EYELASH_BASE_LAYER(name, sensors, LT, RT, LM, RM, LB, RB, LH, RH, JOYSTICK...)                     \
+    ZMK_LAYER(                                                                                             \
+        name,                                                                                              \
+        XXX &kp N1 &kp N2 &kp N3 &kp N4 &kp N5  JOY_UP(JOYSTICK)    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 XXX \
+        XXX                LT                   JOY_DOWN(JOYSTICK)                       RT            XXX \
+        XXX                LM                   JOY_LEFT(JOYSTICK)                       RM            XXX \
+        XXX                LB                   JOY_RIGHT(JOYSTICK)                      RB            XXX \
+        &kp C_MUTE XXX XXX LH                   JOY_TAP(JOYSTICK)                        RH XXX XXX,       \
+        sensors)
