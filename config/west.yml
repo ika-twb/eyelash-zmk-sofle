@@ -1,4 +1,8 @@
 manifest:
+  defaults:
+    remote: urob
+    revision: v0.3 # Pin everything to v0.3
+
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -8,7 +12,6 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: urob
       url-base: https://github.com/urob
-      revision: v0.3
 
   #  - name: gpeye
   #    url-base: https://github.com/GPeye
