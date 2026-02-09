@@ -44,9 +44,6 @@ manifest:
     - name: zmk-unicode
       remote: urob
       path: modules/zmk/unicode
-    - name: zmk-helpers
-      remote: urob
-      revision: v0.3 # Should match ZMK release.
-
+      
   self:
     path: boards
