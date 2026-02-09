@@ -96,127 +96,127 @@
             bindings = <&kp LC(C)>;
             key-positions = <LM2 LB2>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         paste {
             bindings = <&kp LS(INS)>;
             key-positions = <LM1 LB1>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         exclamation_sym {
             bindings = <&kp EXCL>;
             key-positions = <LT4 LM4>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         at_sym {
             bindings = <&kp AT>;
             key-positions = <LT3 LM3>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         hash_sym {
             bindings = <&kp POUND>;
             key-positions = <LT2 LM2>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         dollar_sym {
             bindings = <&kp DLLR>;
             key-positions = <LT1 LM1>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         percent_sym {
             bindings = <&kp PRCNT>;
             key-positions = <LT0 LM0>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         hat_sym {
             bindings = <&kp CARET>;
             key-positions = <RT0 RM0>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         plus_sym {
             bindings = <&kp PLUS>;
             key-positions = <RT1 RM1>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         star_sym {
             bindings = <&kp ASTRK>;
             key-positions = <RT2 RM2>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         ampersand_sym {
             bindings = <&kp AMPS>;
             key-positions = <RT3 RM3>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         underscore_sym {
             bindings = <&kp UNDER>;
             key-positions = <RM0 RB0>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         left_paren_sym {
             bindings = <&kp LPAR>;
             key-positions = <RT1 RT2>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         right_paren_sym {
             bindings = <&kp RPAR>;
             key-positions = <LT1 LT2>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         left_bracket_sym {
             bindings = <&kp LBKT>;
             key-positions = <RT2 RT3>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         right_bracket_sym {
             bindings = <&kp RBKT>;
             key-positions = <LT2 LT3>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         left_brace_sym {
             bindings = <&kp LBRC>;
             key-positions = <RT1 RT3>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         right_brace_sym {
             bindings = <&kp RBRC>;
             key-positions = <LT1 LT3>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         backslash_sym {
             bindings = <&kp BSLH>;
             key-positions = <RM2 RB2>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         pipe_sym {
             bindings = <&kp PIPE>;
             key-positions = <RM3 RB3>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <base>;
         };
         colon_sym {
             bindings = <&kp COLON>;
             key-positions = <RM1 RB1>;
             timeout-ms = <50>;
-            layers = base;
+            layers = <<base>>;
         };
         // softoff {
         //     bindings = <&soft_off>;
