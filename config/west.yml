@@ -8,6 +8,7 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: urob
       url-base: https://github.com/urob
+      revision: v0.3
 
   #  - name: gpeye
   #    url-base: https://github.com/GPeye
