@@ -79,6 +79,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
   ZMK_COMBO_6(NAME, &hm_combo_##NAME HOLD 0, POS, LAYERS, COMBO_MS, IDLE_MS)
 
 #include "combos.dtsi"
+#include "leader.dtsi"
 
 // Trigger tap-action on all interrupts.
 #define MT_CORE                                                                \
