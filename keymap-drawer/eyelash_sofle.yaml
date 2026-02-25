@@ -28,17 +28,17 @@ layers:
   - P
   - {type: none}
   - {type: none}
-  - '&hml LCMD A'
+  - '&hml LCTRL A'
   - '&hml LALT S'
-  - '&hml LCTRL D'
+  - '&hml LCMD D'
   - '&hml LSHFT F'
   - G
   - $$mdi:arrow-left-bold$$
   - H
   - '&hmr LSHFT J'
-  - '&hmr LCTRL K'
+  - '&hmr LCMD K'
   - '&hmr LALT L'
-  - '&hmr LCMD SQT'
+  - '&hmr LCTRL SQT'
   - {type: none}
   - {type: none}
   - Z
@@ -58,10 +58,10 @@ layers:
   - {type: none}
   - {t: '$$mdi:keyboard-esc$$', h: MEDIA}
   - {t: '$$mdi:keyboard-tab$$', h: NAV}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: SYM}
-  - {t: '-', h: NUM, s: _}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', h: NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: FUNC}
   - {type: none}
   - {type: none}
@@ -80,11 +80,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - Alt+Sft+SPC
-  - Alt+1
-  - Alt+2
-  - Alt+3
-  - Alt+4
+  - '&none.'
+  - Ctl+1
+  - Ctl+2
+  - Ctl+3
+  - {type: none}
   - $$mdi:arrow-down-bold$$
   - REDO
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
@@ -93,11 +93,11 @@ layers:
   - UNDO
   - {type: none}
   - {type: none}
-  - Alt+F4
-  - Alt+5
-  - Alt+6
-  - Alt+7
-  - Alt+8
+  - Gui+W
+  - Ctl+5
+  - Ctl+6
+  - Ctl+7
+  - {type: none}
   - $$mdi:arrow-left-bold$$
   - '&mt_home 0 LEFT'
   - {t: '$$mdi:arrow-down-bold$$', h: Ctl+END}
@@ -107,9 +107,9 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: Gui+`, s: Gui+~}
-  - {type: none}
+  - Ctl+7
+  - Ctl+8
+  - Ctl+9
   - {type: none}
   - $$mdi:arrow-right-bold$$
   - HOME
@@ -188,7 +188,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
+  - {type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -385,7 +385,7 @@ layers:
   - )
   - _
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
