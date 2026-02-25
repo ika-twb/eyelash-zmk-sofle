@@ -142,7 +142,7 @@ ZMK_TAP_DANCE(num_dance, bindings = <&num_word NUM>, <&sl NUM>;
 ZMK_TRI_STATE(
     smart_mouse, bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
     ignored-key-positions =
-        <LT1 LT2 LH0 LH1 RT1 RT2 RT3 RM0 RM1 RM2 RM3 RM4 RB1 RB2 RB3 RH0 RH1>;
+        <LT1 LT2 LH0 LH1 RM0 RM1 RM2 RM3 RB0 RB1 RB2 RB3 RH0 RH1 RH2>;
     ignored-layers = <MOUSE NAV FN>;)
 
 /* Custom behaviors */
@@ -395,9 +395,9 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
             bindings = <
 &none         &kp EXCL      &kp AT        &kp POUND     &kp DLLR      &kp PRCNT                   &kp UP_ARROW                   &kp CARET     &kp AMPS      &kp ASTRK     &kp LPAR      &kp RPAR      &none        
 &none         &kp Q         &kp W         &kp E         &kp R         &kp T                       &kp DOWN_ARROW                 &kp Y         &kp U         &kp I         &kp O         &kp P         &none   
-&none         &hml LCMD A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G                       &kp LEFT_ARROW                 &kp H         &hmr LSHFT J  &hmr LCTRL K  &hmr LALT L   &hmr LCMD SQT &none   
+&none         &hml LCTRL A  &hml LALT S   &hml LCMD D   &hml LSHFT F  &kp G                       &kp LEFT_ARROW                 &kp H         &hmr LSHFT J  &hmr LCMD K   &hmr LALT L   &hmr LCTRL SQT &none   
 &none         &kp Z         &kp X         &kp C         &kp V         &kp B                       &kp RIGHT_ARROW                &kp N         &kp M         &comma_morph  &dot_morph    &qexcl      &none    
-&kp C_MUTE                  &none         &none         &lt 3 ESC     &lt 1 TAB     &lt 2 SPACE   &kp ENTER        &lt 5 BSPC    &lt 4 MINUS   &lt 6 DEL     &none         &none     
+&kp C_MUTE                  &none         &none         &lt 3 ESC     &lt 1 TAB     &kp SPACE     &kp ENTER        &kp ENTER     &lt 4 BSPC    &lt 6 DEL     &none         &none     
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -407,9 +407,9 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
         navigation {
             bindings = <
 &none         &none         &none         &none         &none         &none                       &kp UP_ARROW                   &none         &none         &none         &none         &none         &none        
-&none         &kp LA(LS(SPC)) &kp LA(1)   &kp LA(2)     &kp LA(3)      &kp LA(4)                  &kp DOWN_ARROW                 &kp K_REDO    NAV_BSPC      NAV_DEL       &kp K_CUT    &kp K_UNDO    &none   
-&none         &kp LA(F4)     &kp LA(5)    &kp LA(6)     &kp LA(7)      &kp LA(8)                  &kp LEFT_ARROW                 NAV_LEFT      NAV_DOWN      NAV_UP        NAV_RIGHT     &kp CAPS      &none   
-&kp LSHIFT    &none         &kp LG(V)     &kp LG(GRAVE) &none         &none                       &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
+&none         &none.        &kp LC(1)     &kp LC(2)     &kp LC(3)     &none                       &kp DOWN_ARROW                 &kp K_REDO    NAV_BSPC      NAV_DEL       &kp K_CUT    &kp K_UNDO    &none   
+&none         &kp LG(W)     &kp LC(5)     &kp LC(6)     &kp LC(7)     &none                       &kp LEFT_ARROW                 NAV_LEFT      NAV_DOWN      NAV_UP        NAV_RIGHT     &kp CAPS      &none   
+&kp LSHIFT    &none         &kp LC(7)     &kp LC(8)     &kp LC(9)     &none                       &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
 &kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp ENTER     &kp BSPC      &kp DEL       &none         &none     
             >;
 
