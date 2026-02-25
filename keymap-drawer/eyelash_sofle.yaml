@@ -80,7 +80,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - '&none.'
+  - {type: none}
   - Ctl+1
   - Ctl+2
   - Ctl+3
