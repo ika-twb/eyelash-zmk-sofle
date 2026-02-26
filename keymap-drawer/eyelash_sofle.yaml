@@ -94,9 +94,9 @@ layers:
   - {type: none}
   - {type: none}
   - Gui+W
+  - {t: Ctl+4, s: Ctl+$}
   - {t: Ctl+5, s: Ctl+%}
   - {t: Ctl+6, s: Ctl+^}
-  - {t: Ctl+7, s: Ctl+&}
   - {type: none}
   - $$mdi:arrow-left-bold$$
   - '&mt_home 0 LEFT'
