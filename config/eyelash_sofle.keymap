@@ -397,7 +397,7 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 &none         &kp Q         &kp W         &kp E         &kp R         &kp T                       &kp DOWN_ARROW                 &kp Y         &kp U         &kp I         &kp O         &kp P         &none   
 &none         &hml LCTRL A  &hml LALT S   &hml LCMD D   &hml LSHFT F  &kp G                       &kp LEFT_ARROW                 &kp H         &hmr LSHFT J  &hmr LCMD K   &hmr LALT L   &hmr LCTRL SQT &none   
 &none         &kp Z         &kp X         &kp C         &kp V         &kp B                       &kp RIGHT_ARROW                &kp N         &kp M         &comma_morph  &dot_morph    &qexcl      &none    
-&kp C_MUTE                  &none         &none         &lt 3 ESC     &lt 1 TAB     &kp SPACE     &kp ENTER        &kp ENTER     &lt 4 BSPC    &lt 6 DEL     &none         &none     
+&kp C_MUTE                  &none         &none         &lt 3 ESC     &lt 1 TAB     &lt 2 SPACE   &kp SPACE        &lt 5 BSPC    &lt 4 ENTER    &lt 6 DEL     &none         &none     
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -436,7 +436,7 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 &none         &none         &none         &none         &none         &none                       &kp DOWN_ARROW                 &none         &none             &none           &none         &none         &none   
 &none         &none         &none         &none         &none         &none                       &kp LEFT_ARROW                 &kp C_PREV    &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_NEXT    &none         &none   
 &none         &none         &none         &none         &none         &none                       &kp RIGHT_ARROW                &out OUT_TOG  &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    
-&kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp C_STOP    &kp C_PP      &kp C_MUTE        &none           &none     
+&kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp C_STOP    &kp C_PP      &kp C_MUTE        &none           &tog 7     
             >;
 
             display-name = "MEDIA";
@@ -487,8 +487,8 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp LCTRL   &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &none   &kp SPACE    &kp ENTER        &kp BSPC   &none      &none      &kp RIGHT_SHIFT  &kp DELETE
+&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &none
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &none   &kp SPACE    &kp ENTER        &kp BSPC   &kp ENTER  &kp DELETE &kp RIGHT_SHIFT  &tog 0
             >;
 
             display-name = "GAME";
