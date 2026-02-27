@@ -81,9 +81,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Ctl+1, s: Ctl+!}
-  - {t: Ctl+2, s: Ctl+@}
-  - {t: Ctl+3, s: Ctl+#}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - $$mdi:arrow-down-bold$$
   - REDO
@@ -94,9 +94,9 @@ layers:
   - {type: none}
   - {type: none}
   - Gui+W
-  - {t: Ctl+4, s: Ctl+$}
-  - {t: Ctl+5, s: Ctl+%}
-  - {t: Ctl+6, s: Ctl+^}
+  - Ctl+$$mdi:arrow-up-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
   - {type: none}
   - $$mdi:arrow-left-bold$$
   - '&mt_home 0 LEFT'
@@ -107,9 +107,9 @@ layers:
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
-  - {t: Ctl+7, s: Ctl+&}
-  - {t: Ctl+8, s: Ctl+*}
-  - {t: Ctl+9, s: Ctl+(}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - $$mdi:arrow-right-bold$$
   - HOME
