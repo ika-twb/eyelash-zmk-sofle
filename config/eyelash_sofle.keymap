@@ -407,9 +407,9 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
         navigation {
             bindings = <
 &none         &none         &none         &none         &none         &none                       &kp UP_ARROW                   &none         &none         &none         &none         &none         &none        
-&none         &none         &kp LC(N1)     &kp LC(N2)     &kp LC(N3)     &none                    &kp DOWN_ARROW                 &kp K_REDO    NAV_BSPC      NAV_DEL       &kp K_CUT    &kp K_UNDO    &none   
-&none         &kp LG(W)     &kp LC(N4)     &kp LC(N5)     &kp LC(N6)     &none                    &kp LEFT_ARROW                 NAV_LEFT      NAV_DOWN      NAV_UP        NAV_RIGHT     &kp CAPS      &none   
-&kp LSHIFT    &none         &kp LC(N7)     &kp LC(N8)     &kp LC(N9)     &none                    &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
+&none         &none         &none         &none         &none         &none                    &kp DOWN_ARROW                 &kp K_REDO    NAV_BSPC      NAV_DEL       &kp K_CUT    &kp K_UNDO    &none   
+&none         &kp LG(W)     &kp LC(UP)    &kp LC(LEFT)  &kp LC(RIGHT) &none                    &kp LEFT_ARROW                 NAV_LEFT      NAV_DOWN      NAV_UP        NAV_RIGHT     &kp CAPS      &none   
+&kp LSHIFT    &none         &none         &none         &none         &none                    &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
 &kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp ENTER     &kp BSPC      &kp DEL       &none         &none     
             >;
 
