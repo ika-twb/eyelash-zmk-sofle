@@ -410,7 +410,7 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 &none         &none         &none         &none         &none         &none                    &kp DOWN_ARROW                 &kp K_REDO    NAV_BSPC      NAV_DEL       &kp K_CUT    &kp K_UNDO    &none   
 &none         &kp LG(W)     &kp LC(UP)    &kp LC(LEFT)  &kp LC(RIGHT) &none                    &kp LEFT_ARROW                 NAV_LEFT      NAV_DOWN      NAV_UP        NAV_RIGHT     &kp CAPS      &none   
 &kp LSHIFT    &none         &none         &none         &none         &none                    &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
-&kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp ENTER     &kp BSPC      &kp DEL       &none         &none     
+&kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp CAPS     &kp BSPC      &kp DEL       &none         &none     
             >;
 
             display-name = "NAV";
