@@ -519,4 +519,4 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: BASE, h: toggle}
+  - {t: GAME, h: toggle}
