@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - {type: none}
   - {type: none}
-  - {t: '$$mdi:keyboard-esc$$', h: MEDIA}
-  - {t: '$$mdi:keyboard-tab$$', h: NAV}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
+  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', h: SYM}
-  - {t: '$$mdi:keyboard-return$$', h: NUM}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: FUNC}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:backspace-reverse-outline$$
   - {type: none}
   - {type: none}
   NAV:
@@ -122,7 +122,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
+  - {type: none}
   - {type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-caps$$
@@ -188,7 +188,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
+  - {type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -251,7 +251,7 @@ layers:
   - $$mdi:volume-off$$
   - {type: none}
   - {type: none}
-  - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -321,7 +321,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
-  - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -385,7 +385,7 @@ layers:
   - )
   - _
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -452,7 +452,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: none}
-  - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   GAME:
