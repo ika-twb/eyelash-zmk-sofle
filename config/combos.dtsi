@@ -65,7 +65,7 @@ ZMK_COMBO(nav_l,    &sl NAV,           LT2 LT1,     DEF,         COMBO_TERM_FAST
 ZMK_COMBO(mouse_l,  &sl MOUSE,         LT1 LT0,     DEF,         COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(sym_l,    &sl SYM,           RT0 RT1,     DEF,         COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(media_l,  &sl MEDIA,         LT4 LT3,     DEF,         COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(num_l,    &num_word,         RM3 RM4,     DEF,         COMBO_TERM_FAST, COMBO_IDLE_FAST, LCTRL, KEYS_L)
+ZMK_COMBO(num_l,    &num_dance,        RM3 RM4,     DEF,         COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(func_l,   &sl FUNC,          LB4 LB3,     DEF,         COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 /* NAV layer: desktop switching (home row) and tab switching (top row) */
