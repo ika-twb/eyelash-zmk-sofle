@@ -395,7 +395,7 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
             bindings = <
 &none         &kp EXCL      &kp AT        &kp POUND     &kp DLLR      &kp PRCNT                   &kp UP_ARROW                   &kp CARET     &kp AMPS      &kp ASTRK     &kp LPAR      &kp RPAR      &none        
 &none         &kp Q         &kp W         &kp E         &kp R         &kp T                       &kp DOWN_ARROW                 &kp Y         &kp U         &kp I         &kp O         &kp P         &none   
-&none         &hml LCTRL A  &hml LALT S   &hml LCMD D   &hml LSHFT F  &kp G                       &kp LEFT_ARROW                 &kp H         &hmr LSHFT J  &hmr LCMD K   &hmr LALT L   &hmr LCTRL SQT &none   
+&none         &hml LGUI A  &hml LALT S   &hml LCTRL D   &hml LSHFT F  &kp G                       &kp LEFT_ARROW                 &kp H         &hmr LSHFT J  &hmr LCTRL K   &hmr LALT L   &hmr LGUI SQT &none   
 &none         &kp Z         &kp X         &kp C         &kp V         &kp B                       &kp RIGHT_ARROW                &kp N         &kp M         &comma_morph  &dot_morph    &qexcl      &none    
 &kp C_MUTE                  &none         &none         &lt 3 ESC     &lt 1 TAB     &lt 2 SPACE   &kp SPACE        &lt 5 BSPC    &lt 4 ENTER    &lt 6 DEL     &none         &none     
             >;
@@ -407,10 +407,10 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
         navigation {
             bindings = <
 &none         &none         &none         &none         &none         &none                       &kp UP_ARROW                   &none         &none         &none         &none         &none         &none        
-&none         &none         &none         &none         &none         &none                    &kp DOWN_ARROW                 &kp K_REDO    NAV_BSPC      NAV_DEL       &kp K_CUT    &kp K_UNDO    &none   
-&none         &kp LG(W)     &kp LC(UP)    &kp LC(LEFT)  &kp LC(RIGHT) &none                    &kp LEFT_ARROW                 NAV_LEFT      NAV_DOWN      NAV_UP        NAV_RIGHT     &kp CAPS      &none   
-&kp LSHIFT    &none         &none         &none         &none         &none                    &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
-&kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp CAPS     &kp BSPC      &kp DEL       &none         &none     
+&none         &none         &none         &kp LC(LS(LBKT))   &LC(LS(RBKT))         &none          &kp DOWN_ARROW                 &kp K_REDO    NAV_BSPC      NAV_DEL       &kp K_CUT    &kp K_UNDO    &none   
+&none         &kp LA(F4)     &kp LC(UP)    &kp LC(LG(LEFT))  &kp LC(LG(RIGHT)) &none              &kp LEFT_ARROW                 NAV_LEFT      NAV_DOWN      NAV_UP        NAV_RIGHT     &kp CAPS      &none   
+&kp LSHIFT    &none         &none         &none         &none         &none                       &kp RIGHT_ARROW                &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INSERT    &none    
+&kp C_MUTE                  &none         &none         &none         &none         &none         &kp ENTER        &kp LC(SPC)   &kp BSPC      &kp DEL       &none         &none     
             >;
 
             display-name = "NAV";
