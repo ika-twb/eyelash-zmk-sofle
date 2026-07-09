@@ -28,17 +28,17 @@ layers:
   - P
   - {type: none}
   - {type: none}
-  - '&hml LCTRL A'
+  - '&hml LGUI A'
   - '&hml LALT S'
-  - '&hml LCMD D'
+  - '&hml LCTRL D'
   - '&hml LSHFT F'
   - G
   - $$mdi:arrow-left-bold$$
   - H
   - '&hmr LSHFT J'
-  - '&hmr LCMD K'
+  - '&hmr LCTRL K'
   - '&hmr LALT L'
-  - '&hmr LCTRL SQT'
+  - '&hmr LGUI SQT'
   - {type: none}
   - {type: none}
   - Z
@@ -82,8 +82,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: 'Ctl+Sft+[', s: 'Ctl+Sft+{'}
+  - '&LC(LS(RBKT))'
   - {type: none}
   - $$mdi:arrow-down-bold$$
   - REDO
@@ -93,10 +93,10 @@ layers:
   - UNDO
   - {type: none}
   - {type: none}
-  - Gui+W
+  - Alt+F4
   - Ctl+$$mdi:arrow-up-bold$$
-  - Ctl+$$mdi:arrow-left-bold$$
-  - Ctl+$$mdi:arrow-right-bold$$
+  - Ctl+Gui+$$mdi:arrow-left-bold$$
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   - {type: none}
   - $$mdi:arrow-left-bold$$
   - '&mt_home 0 LEFT'
@@ -125,7 +125,7 @@ layers:
   - {type: held}
   - {type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-caps$$
+  - Ctl+SPC
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {type: none}
