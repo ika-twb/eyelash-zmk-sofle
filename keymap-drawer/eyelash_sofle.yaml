@@ -83,7 +83,7 @@ layers:
   - {type: none}
   - {type: none}
   - {t: 'Ctl+Sft+[', s: 'Ctl+Sft+{'}
-  - '&LC(LS(RBKT))'
+  - {t: 'Ctl+Sft+]', s: 'Ctl+Sft+}'}
   - {type: none}
   - $$mdi:arrow-down-bold$$
   - REDO
